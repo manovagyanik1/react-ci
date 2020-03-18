@@ -14,7 +14,7 @@
   },
   "scripts": {
     "pm2-start": "pm2 start server.js",
-    "stop": "pm2 restart all",
+    "pm2-restart": "pm2 restart server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
