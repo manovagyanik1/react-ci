@@ -1,5 +1,7 @@
 cd react-ci
 
+git pull
+
 npm install
 
 npm run build
