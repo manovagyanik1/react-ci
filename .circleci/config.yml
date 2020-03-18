@@ -7,10 +7,7 @@ jobs:
       name: node/default
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run: npm install
-            - run: npm test
+      ─ run: ssh -oStrictHostKeyChecking=no -v circleci@134.122.119.177 "./react-ci/deploy_project.sh"
 workflows:
     build-and-test:
       jobs:
