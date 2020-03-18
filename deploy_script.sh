@@ -4,4 +4,4 @@ npm install
 
 npm run build
 
-npm run pm2-start
+npm run pm2-restart
